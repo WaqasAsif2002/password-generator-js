@@ -1,0 +1,45 @@
+.castle-illustration {
+    max-width: 300px;
+    margin: 2rem auto;
+    opacity: 0.8;
+}
+
+.password-container {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.strength-badge {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin: 0 1rem;
+}
+
+.very-strong {
+    background-color: #22c55e;
+    color: white;
+}
+
+.character-toggle {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.character-toggle.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+.img{
+    width: 300px;
+
+}
